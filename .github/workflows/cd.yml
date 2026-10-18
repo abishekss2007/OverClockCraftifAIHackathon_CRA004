@@ -58,7 +58,7 @@ jobs:
         with:
           name: safesight-bundle
           path: SafeSight/dist/
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: SafeSight/site
 
